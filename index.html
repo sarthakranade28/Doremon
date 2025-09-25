@@ -3,11 +3,38 @@
 <head>
     <title>Doremon</title>
     <style>
-        
+         body{
+            padding: 0;
+            margin: 0;
+            background-color: aliceblue;
+        }
+        .main-body{
+            height: 300px;
+            width: 300px;
+            background-color:#25a7da;
+            position:relative;
+            display:block;
+            margin: 100px auto;
+            border-radius: 50%;   
+        }
+        #text{
+            color: rgb(162, 24, 51);
+            text-align: center;
+        }
+        circle {
+            height: 200px;
+            width: 250px;
+            background-color:white;
+            position:absolute;
+            border-radius: 50%;
+            border: 2px solid black;
+            top:80px;
+            left: 24px;
+        }
     </style>
 </head>
 <body>
-    <h1>Hello Doremon</h1>
+    <h1 id="text">Hello Doremon</h1>
     <div class="main-body">
         <div class="circle"></div>
         <div id="eye1"></div>
